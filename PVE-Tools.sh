@@ -1066,7 +1066,7 @@ EOF
     log_info "修改页面高度"
     disk_count=$(lsblk -d -o NAME | grep -cE 'sd[a-z]|nvme[0-9]')
     # 高度变量，如果某些设备CPU核心过多，导致高度不够，修改65为合适的数字，如80、100等。
-    height_increase=$((disk_count * 65))
+    height_increase=$((disk_count * 100))
 
     node_status_new_height=$((400 + height_increase))
     sed -i -r '/widget\.pveNodeStatus/,+5{/height/{s#[0-9]+#'$node_status_new_height'#}}' $pvemanagerlib
