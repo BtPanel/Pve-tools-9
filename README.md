@@ -29,13 +29,13 @@
 #### 中国大陆网络
 
 ```
-bash <(curl -sSL https://ghfast.top/github.com/siyrs/pve-tools-9/blob/main/PVE-Tools.sh)
+bash <(curl -sSL https://ghfast.top/raw.githubusercontent.com/BtPanel/Pve-tools-9/refs/heads/main/PVE-Tools.sh)
 ```
 
 #### 国际网络
 
 ```
-bash <(curl -sSL https://github.com/siyrs/pve-tools-9/blob/main/PVE-Tools.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/BtPanel/Pve-tools-9/refs/heads/main/PVE-Tools.sh)
 ```
 
 ---
